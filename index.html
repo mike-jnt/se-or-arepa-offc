@@ -3218,12 +3218,13 @@ window.addEventListener("offline", () => {
 });
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDwCV5NmixGyEZ_bdAMTU5wqDua_BbANSo",
-  authDomain: "senorarepa-689cc.firebaseapp.com",
-  projectId: "senorarepa-689cc",
-  storageBucket: "senorarepa-689cc.firebasestorage.app",
-  messagingSenderId: "499118544254",
-  appId: "1:499118544254:web:cdf7b22c12bb760d184f2f"
+  apiKey: "AIzaSyDxrAJcH5AAxIAK2rRWD61aSQklaH--dT0",
+  authDomain: "prsenorarepa.firebaseapp.com",
+  projectId: "prsenorarepa",
+  storageBucket: "prsenorarepa.firebasestorage.app",
+  messagingSenderId: "55349021122",
+  appId: "1:55349021122:web:e4c65b2f2911bd2c4eee5b",
+  measurementId: "G-8JGY4PVMMV"
 };
 
 
@@ -3240,7 +3241,7 @@ function resolverEmailIngreso(entradaUsuario = "") {
   const registro = resolverRegistroUsuario(valor);
   if (registro?.email) return registro.email;
   if (valor.includes('@')) return valor;
-  return `${valor}@local.io`;
+  return `${valor}@prsenorarepa.com`;
 }
 
 function aplicarSesionAutenticada(usuario, rol, email) {
